@@ -27,6 +27,10 @@ Window {
     property string border_color: Theme.iris
     property real bg_opacity: 0.8
 
+    property string no_result_text: "no result :P"
+    property int no_result_size: 40
+    property color no_result_color: Theme.muted
+
     property int rows: 5
     property int columns: 4
 
@@ -433,6 +437,15 @@ Window {
                 }
                 }
             }
+
+            Text {
+                anchors.centerIn: parent
+                text: rootWin.no_result_text
+                font.pixelSize: rootWin.no_result_size
+                color: rootWin.no_result_color
+                visible: grid.count == 0 
+            }
+
             Item {
                 anchors {
                     fill: parent
@@ -440,7 +453,6 @@ Window {
                     margins: 20
                 }
                 clip: true
-
             GridView {
                 id: grid
                 y: 20

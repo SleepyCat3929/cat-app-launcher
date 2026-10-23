@@ -2,6 +2,7 @@ This is just an app launcher with cat ears
 ======
 Enjoy your app launcher with minimal cat ears and smooth transition
 Comes default with rose-pine-moon theme but you can customize them in the shell.qml (=^･ω･^=)b
+Defualt font is mononoki but you can change them in Components/Text.qml
 
 # Installation
 just make a directory and clone this repo and put it in \$HOME/.config/quickshell/
@@ -30,6 +31,7 @@ qs -c <custom-dir-name>
 
 # Customization
 you can customize a little bit of the appearence of the color in shell.qml file
+you can also change font in Components/Text.qml
 
 for example if you wanna change the border thickness just change this part of the file (it should be at somewhat top part of the file)
 ```qml

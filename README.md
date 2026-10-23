@@ -4,6 +4,9 @@ Enjoy your app launcher with minimal cat ears and smooth transition\
 Comes default with rose-pine-moon theme but you can customize them in the shell.qml (=^･ω･^=)b\
 Defualt font is mononoki but you can change them in Components/Text.qml
 
+<img source="data/demo.gif" width = 400>
+
+
 # Installation
 just make a directory and clone this repo and put it in \$HOME/.config/quickshell/ \
 also make sure you have quickshell installed and no shell.qml in \$HOME/.config/quickshell/

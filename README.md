@@ -1,6 +1,6 @@
 This is just an app launcher with cat ears
 ======
-Enjoy your app launcher with minimal cat ears and smooth transition
+Enjoy your app launcher with minimal cat ears and smooth transition\
 Comes default with rose-pine-moon theme but you can customize them in the shell.qml (=^･ω･^=)b
 Defualt font is mononoki but you can change them in Components/Text.qml
 

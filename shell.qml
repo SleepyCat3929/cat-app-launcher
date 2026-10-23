@@ -344,6 +344,20 @@ Window {
                     width: grid.cellWidth
                     height: grid.cellHeight
 
+                Rectangle {
+                    id: hover_hl
+                    radius: 12
+                    anchors.fill: parent
+                    anchors.margins: 2 
+                    color: Theme.overlay
+                    opacity: hh.hovered || grid.currentIndex == entry_root.index ? 0.3 : 0
+                    Behavior on opacity {
+                        OpacityAnimator {
+                            duration: 120
+                            easing.type: Easing.OutQuad
+                        }
+                    }
+                }
                 MouseArea {
                     anchors.fill: parent
                     cursorShape: Qt.PointingHandCursor

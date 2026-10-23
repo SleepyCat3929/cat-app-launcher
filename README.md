@@ -31,6 +31,12 @@ if you have custom directory name then
 ```sh
 qs -c <custom-dir-name>
 ```
+\
+you can use arrow keys or ctrl N/P to navigate the apps and press enter to open it!\
+you can also use your mouse and double click the app you wanna open\
+
+enjoy! 𐔌՞-ᴗ-՞𐦯
+
 
 # Customization
 you can customize a little bit of the appearence of the color in shell.qml file\

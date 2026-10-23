@@ -4,7 +4,6 @@ Enjoy your app launcher with minimal cat ears and smooth transition
 Comes default with rose-pine-moon theme but you can customize them in the shell.qml (=^･ω･^=)b
 
 # Installation
----
 just make a directory and clone this repo and put it in \$HOME/.config/quickshell/
 also make sure you have quickshell installed and no shell.qml in \$HOME/.config/quickshell/
 
@@ -16,7 +15,6 @@ git clone https://github.com/SleepyCat3929/cat-app-launcher.git $HOME/.config/qu
 if you don't have quickshell installed then follow this [quickshell installation guide](https://quickshell.org/docs/v0.3.0/guide/install-setup/)
 
 # Usage
----
 use qs with the directory name you created
 and bind them with your keyboard shortcut and you should be good to go! ~(=\^‥\^)/
 
@@ -31,7 +29,6 @@ qs -c <custom-dir-name>
 ```
 
 # Customization
----
 you can customize a little bit of the appearence of the color in shell.qml file
 
 for example if you wanna change the border thickness just change this part of the file (it should be at somewhat top part of the file)

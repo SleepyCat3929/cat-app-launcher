@@ -50,4 +50,4 @@ change this into whatever you like (in this case let's say 10)
 ```qml
 property real border_width: 10
 ```
-then save the file and run the quickshell again and you should see the changes  (^- ᴗ - ^｡=)~
+then save the file and run the quickshell again and you should see the changes  (^ - ᴗ - ^= )~
